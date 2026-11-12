@@ -20,6 +20,35 @@ Segui rigorosamente queste regole di stile, impostazione e sintassi:
 - Usa il grassetto in modo strategico: solo per i nomi propri, i concetti chiave e le parole chiave da memorizzare. Non grassettare intere frasi.
 - Crea un "format ripetitivo" per i concetti: per ogni elemento analizzato, struttura i bullet point sempre nello stesso ordine logico (es. Definizione -> Caratteristiche -> Funzione -> Relazioni).
 - Organizza le informazioni per differenze e analogie: crea bullet point che mettano in relazione i concetti (es. "Confronto con X", "Differenza da Y", "Derivazione da Z").
+- Non usare più di due livelli per gli elenchi puntati. Per esempio se serve un elenco di questo tipo:
+
+...
+
+1.1 Il Ponte di Augusto a Narni (1826-1827)
+  - Identificazione e Collocazione:
+      - Bozzetto (1826): olio su carta incollata su tela, 34x48,4 cm → Parigi, Museo del Louvre.
+      - Versione definitiva (1827): olio su tela, 68x94,6 cm → Ottawa, Galerie Nationale du Canada.
+  - Impostazione Compositiva e Spaziale:
+      - Bozzetto: rigida costruzione prospettica → andamento diagonale del fiume verso il centro → orientamento dello sguardo verso le alture all'orizzonte avvolte da leggera foschia.
+      - Versione definitiva: impostazione classicista → allontanamento del punto di vista → descrizione dettagliata del sentiero a sinistra → inserimento di un boschetto idilliaco ad interrompere la fuga prospettica.
+
+...
+
+FALLO DIVENTARE
+
+...
+
+1.1 Il Ponte di Augusto a Narni (1826-1827)
+
+Identificazione e Collocazione:
+  - Bozzetto (1826): olio su carta incollata su tela, 34x48,4 cm → Parigi, Museo del Louvre.
+  - Versione definitiva (1827): olio su tela, 68x94,6 cm → Ottawa, Galerie Nationale du Canada.
+
+Impostazione Compositiva e Spaziale:
+  - Bozzetto: rigida costruzione prospettica → andamento diagonale del fiume verso il centro → orientamento dello sguardo verso le alture all'orizzonte avvolte da leggera foschia.
+  - Versione definitiva: impostazione classicista → allontanamento del punto di vista → descrizione dettagliata del sentiero a sinistra → inserimento di un boschetto idilliaco ad interrompere la fuga prospettica.
+
+...
 
 4. COSA EVITARE
 - Non usare introduzioni o conclusioni generiche (es. "In questo testo vedremo...", "In sintesi...").
