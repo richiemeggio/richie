@@ -21,6 +21,5 @@
             "name": "MicroG RE",
             "additionalSettings": "{\"includePrereleases\":false,\"includeDrafts\":false,\"fallbackToOlderReleases\":true,\"filterReleaseTitlesByRegEx\":\"\",\"invertReleaseTitlesFilter\":false,\"filterReleaseNotesByRegEx\":\"\",\"invertReleaseNotesFilter\":false,\"verifyLatestTag\":false,\"sortMethodChoice\":\"date\",\"useLatestAssetDateAsReleaseDate\":false,\"releaseTitleAsVersion\":false,\"versionExtractionRegEx\":\"\",\"matchGroupToUse\":\"\",\"versionDetection\":true,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"^microg-\\\\d+\\\\.\\\\d+\\\\.\\\\d+-icon-arm64-v8a\\\\.apk$\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":true,\"includeZips\":false,\"zippedApkFilterRegEx\":\"\",\"includeTarballs\":false,\"tarballedApkFilterRegEx\":\"\",\"minimumUpdateAgeDays\":\"\",\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"refreshBeforeDownload\":false,\"detectionDateAsReleaseDate\":false,\"trackOnly\":false,\"appName\":\"\",\"appAuthor\":\"\",\"installerMode\":\"\",\"shizukuPretendToBeGooglePlay\":false,\"allowInsecure\":false,\"allowedSigningCertHashes\":\"\",\"about\":\"\",\"updateHealthStaleRelease\":\"\",\"updateHealthStaleVersion\":\"\",\"updateHealthFailedChecks\":\"\",\"updateHealthArchived\":\"\",\"updateHealthFilteredReleases\":\"\"}"
         }
-    ],
-    "settings": null
+    ]
 }
