@@ -1,0 +1,26 @@
+{
+    "apps": [
+        {
+            "id": "app.morphe.android.apps.youtube.music",
+            "url": "https://github.com/richiemeggio/morphe",
+            "author": "richiemeggio",
+            "name": "YT Music",
+            "additionalSettings": "{\"includePrereleases\":false,\"includeDrafts\":false,\"fallbackToOlderReleases\":true,\"filterReleaseTitlesByRegEx\":\"\",\"invertReleaseTitlesFilter\":false,\"filterReleaseNotesByRegEx\":\"\",\"invertReleaseNotesFilter\":false,\"verifyLatestTag\":false,\"sortMethodChoice\":\"date\",\"useLatestAssetDateAsReleaseDate\":false,\"releaseTitleAsVersion\":false,\"versionExtractionRegEx\":\"\",\"matchGroupToUse\":\"\",\"versionDetection\":false,\"releaseDateAsVersion\":true,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"^music.*\\\\.apk$\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":true,\"includeZips\":false,\"zippedApkFilterRegEx\":\"\",\"includeTarballs\":false,\"tarballedApkFilterRegEx\":\"\",\"minimumUpdateAgeDays\":\"\",\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"refreshBeforeDownload\":false,\"detectionDateAsReleaseDate\":false,\"trackOnly\":false,\"appName\":\"\",\"appAuthor\":\"\",\"installerMode\":\"\",\"shizukuPretendToBeGooglePlay\":false,\"allowInsecure\":false,\"allowedSigningCertHashes\":\"\",\"about\":\"\",\"updateHealthStaleRelease\":\"\",\"updateHealthStaleVersion\":\"\",\"updateHealthFailedChecks\":\"\",\"updateHealthArchived\":\"\",\"updateHealthFilteredReleases\":\"\"}"
+        },
+        {
+            "id": "app.morphe.android.youtube",
+            "url": "https://github.com/richiemeggio/morphe",
+            "author": "richiemeggio",
+            "name": "YouTube",
+            "additionalSettings": "{\"includePrereleases\":false,\"includeDrafts\":false,\"fallbackToOlderReleases\":true,\"filterReleaseTitlesByRegEx\":\"\",\"invertReleaseTitlesFilter\":false,\"filterReleaseNotesByRegEx\":\"\",\"invertReleaseNotesFilter\":false,\"verifyLatestTag\":false,\"sortMethodChoice\":\"date\",\"useLatestAssetDateAsReleaseDate\":false,\"releaseTitleAsVersion\":false,\"versionExtractionRegEx\":\"\",\"matchGroupToUse\":\"\",\"versionDetection\":false,\"releaseDateAsVersion\":true,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"^yt.*\\\\.apk$\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":true,\"includeZips\":false,\"zippedApkFilterRegEx\":\"\",\"includeTarballs\":false,\"tarballedApkFilterRegEx\":\"\",\"minimumUpdateAgeDays\":\"\",\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"refreshBeforeDownload\":false,\"detectionDateAsReleaseDate\":false,\"trackOnly\":false,\"appName\":\"\",\"appAuthor\":\"\",\"installerMode\":\"\",\"shizukuPretendToBeGooglePlay\":false,\"allowInsecure\":false,\"allowedSigningCertHashes\":\"\",\"about\":\"\",\"updateHealthStaleRelease\":\"\",\"updateHealthStaleVersion\":\"\",\"updateHealthFailedChecks\":\"\",\"updateHealthArchived\":\"\",\"updateHealthFilteredReleases\":\"\"}"
+        },
+        {
+            "id": "app.revanced.android.gms",
+            "url": "https://github.com/MorpheApp/MicroG-RE",
+            "author": "MorpheApp",
+            "name": "MicroG RE",
+            "additionalSettings": "{\"includePrereleases\":false,\"includeDrafts\":false,\"fallbackToOlderReleases\":true,\"filterReleaseTitlesByRegEx\":\"\",\"invertReleaseTitlesFilter\":false,\"filterReleaseNotesByRegEx\":\"\",\"invertReleaseNotesFilter\":false,\"verifyLatestTag\":false,\"sortMethodChoice\":\"date\",\"useLatestAssetDateAsReleaseDate\":false,\"releaseTitleAsVersion\":false,\"versionExtractionRegEx\":\"\",\"matchGroupToUse\":\"\",\"versionDetection\":true,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"^microg-\\\\d+\\\\.\\\\d+\\\\.\\\\d+-icon-arm64-v8a\\\\.apk$\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":true,\"includeZips\":false,\"zippedApkFilterRegEx\":\"\",\"includeTarballs\":false,\"tarballedApkFilterRegEx\":\"\",\"minimumUpdateAgeDays\":\"\",\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"refreshBeforeDownload\":false,\"detectionDateAsReleaseDate\":false,\"trackOnly\":false,\"appName\":\"\",\"appAuthor\":\"\",\"installerMode\":\"\",\"shizukuPretendToBeGooglePlay\":false,\"allowInsecure\":false,\"allowedSigningCertHashes\":\"\",\"about\":\"\",\"updateHealthStaleRelease\":\"\",\"updateHealthStaleVersion\":\"\",\"updateHealthFailedChecks\":\"\",\"updateHealthArchived\":\"\",\"updateHealthFilteredReleases\":\"\"}"
+        }
+    ],
+    "settings": null
+}
