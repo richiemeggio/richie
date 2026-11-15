@@ -1,5 +1,7 @@
 # Installazione
 
+Scarica Obtainium da [qui](https://obtainium.imranr.dev/).
+
 ## MicroG-RE (Obbligatorio)
 Clicca obbligatoriamente sul pulsante per ottenere MicroG-RE, requisito fondamentale per il funzionamento di YouTube e YouTube Music.
 
