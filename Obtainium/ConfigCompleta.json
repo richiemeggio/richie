@@ -21,5 +21,6 @@
             "name": "MicroG RE",
             "additionalSettings": "{\"includePrereleases\":false,\"includeDrafts\":false,\"fallbackToOlderReleases\":true,\"sortMethodChoice\":\"date\",\"versionDetection\":true,\"apkFilterRegEx\":\"^microg-\\\\d+\\\\.\\\\d+\\\\.\\\\d+-icon-arm64-v8a\\\\.apk$\",\"autoApkFilterByArch\":true}"
         }
-    ]
+    ],
+    "settings": null
 }
