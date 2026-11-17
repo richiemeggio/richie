@@ -2,7 +2,7 @@
 
 1. Scarica e installa Obtainium aprendo il file scaricato
 
-[![Scarica](https://img.shields.io/badge/Scarica-blue?style=for-the-badge)](https://github.com/ImranR98/Obtainium/releases/latest/download/app-arm64-v8a-fdroid-release.apk)
+[![Scarica](https://img.shields.io/badge/Scarica-blue?style=for-the-badge)](https://github.com/ImranR98/Obtainium/releases/latest/download/app-arm64-v8a-release.apk)
 
 2. Aprire Obtanium e andare nelle Impostazioni
 3. Cliccare su "Specifiche per la fonte"
