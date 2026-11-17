@@ -4,15 +4,15 @@
     "author": "richiemeggio",
     "name": "YT Music",
     "additionalSettings": 
-    {
-        "includePrereleases": false,
-        "includeDrafts": false,
-        "fallbackToOlderReleases": true,
-        "sortMethodChoice": "date",
-        "releaseDateAsVersion": true,
-        "apkFilterRegEx": "^music.*\\.apk$",
-        "autoApkFilterByArch": true
-    }
+        {
+            "includePrereleases": false,
+            "includeDrafts": false,
+            "fallbackToOlderReleases": true,
+            "sortMethodChoice": "date",
+            "releaseDateAsVersion": true,
+            "apkFilterRegEx": "^music.*\\.apk$",
+            "autoApkFilterByArch": true
+        }
 }
 {
     "id": "app.morphe.android.youtube",
