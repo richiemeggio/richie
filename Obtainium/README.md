@@ -32,6 +32,11 @@ Clicca sul pulsante per ottenere YouTube
 
 [![Add to Obtainium](./badge.png)](https://apps.obtainium.imranr.dev/redirect?r=obtainium://app/%7B%0A%20%20%20%20%22id%22%3A%20%22app.morphe.android.youtube%22%2C%0A%20%20%20%20%22url%22%3A%20%22https%3A%2F%2Fgithub.com%2Frichiemeggio%2Fmorphe%22%2C%0A%20%20%20%20%22author%22%3A%20%22richiemeggio%22%2C%0A%20%20%20%20%22name%22%3A%20%22YouTube%22%2C%0A%20%20%20%20%22additionalSettings%22%3A%20%22%7B%5C%22includePrereleases%5C%22%3Afalse%2C%5C%22includeDrafts%5C%22%3Afalse%2C%5C%22fallbackToOlderReleases%5C%22%3Atrue%2C%5C%22sortMethodChoice%5C%22%3A%5C%22date%5C%22%2C%5C%22releaseDateAsVersion%5C%22%3Atrue%2C%5C%22apkFilterRegEx%5C%22%3A%5C%22%5Eyt.%2A%5C%5C%5C%5C.apk%24%5C%22%2C%5C%22autoApkFilterByArch%5C%22%3Atrue%7D%22%0A%7D)
 
+### Instragram
+Clicca sul pulsante per ottenere Instagram Plus
+
+[![Add to Obtainium](./badge.png)](https://apps.obtainium.imranr.dev/redirect?r=obtainium://app/%7B%0A%20%20%20%20%22id%22%3A%20%22com.instagram.android%22%2C%0A%20%20%20%20%22url%22%3A%20%22https%3A%2F%2Fgithub.com%2Frichiemeggio%2Fmorphe%22%2C%0A%20%20%20%20%22author%22%3A%20%22richiemeggio%22%2C%0A%20%20%20%20%22name%22%3A%20%22Instagram%22%2C%0A%20%20%20%20%22additionalSettings%22%3A%20%22%7B%5C%22includePrereleases%5C%22%3Afalse%2C%5C%22includeDrafts%5C%22%3Afalse%2C%5C%22fallbackToOlderReleases%5C%22%3Atrue%2C%5C%22sortMethodChoice%5C%22%3A%5C%22date%5C%22%2C%5C%22releaseDateAsVersion%5C%22%3Atrue%2C%5C%22apkFilterRegEx%5C%22%3A%5C%22%5Eig.%2A%5C%5C%5C%5C.apk%24%5C%22%2C%5C%22autoApkFilterByArch%5C%22%3Atrue%7D%22%0A%7D)
+
 ---
 
 ### D'ora in poi si riceveranno gli aggiornamenti per le app scelte tramite Obtainium
