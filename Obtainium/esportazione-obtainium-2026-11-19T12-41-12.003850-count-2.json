@@ -1,0 +1,25 @@
+{
+    "apps": [
+    {
+        "id": "app.morphe.android.apps.youtube.music",
+        "url": "https://github.com/richiemeggio/morphe",
+        "author": "richiemeggio",
+        "name": "YT Music",
+        "additionalSettings": "{\"includePrereleases\":false,\"includeDrafts\":false,\"fallbackToOlderReleases\":true,\"sortMethodChoice\":\"date\",\"releaseDateAsVersion\":true,\"apkFilterRegEx\":\"^music.*\\\\.apk$\",\"autoApkFilterByArch\":true}"
+    },
+    {     
+        "id": "app.morphe.android.youtube",
+        "url": "https://github.com/richiemeggio/morphe",
+        "author": "richiemeggio",
+        "name": "YouTube",
+        "additionalSettings": "{\"includePrereleases\":false,\"includeDrafts\":false,\"fallbackToOlderReleases\":true,\"sortMethodChoice\":\"date\",\"releaseDateAsVersion\":true,\"apkFilterRegEx\":\"^yt.*\\\\.apk$\",\"autoApkFilterByArch\":true}"
+    },
+    {
+        "id": "app.revanced.android.gms",
+        "url": "https://github.com/MorpheApp/MicroG-RE",
+        "author": "MorpheApp",
+        "name": "MicroG RE",
+        "additionalSettings": "{\"includePrereleases\":false,\"includeDrafts\":false,\"fallbackToOlderReleases\":true,\"sortMethodChoice\":\"date\",\"versionDetection\":true,\"apkFilterRegEx\":\"^microg-\\\\d+\\\\.\\\\d+\\\\.\\\\d+-icon-arm64-v8a\\\\.apk$\",\"autoApkFilterByArch\":true}"
+    }       
+    ]
+}
