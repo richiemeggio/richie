@@ -1,155 +1,164 @@
-/* --- Reset e Variabili --- */
+/* --- RESET & VARIABILI --- */
 :root {
-    --bg-color: #f8fafc;       /* Grigio chiarissimo per lo sfondo */
-    --card-bg: #ffffff;        /* Bianco puro per i contenuti */
-    --text-main: #1e293b;      /* Blu scuro/grigio per il testo (più riposante del nero) */
-    --accent: #6366f1;         /* Indaco (colore tech/moderno) */
-    --accent-hover: #4f46e5;   /* Indaco più scuro per hover */
-    --border: #e2e8f0;         /* Bordi sottili */
-    --radius: 12px;            /* Arrotondamento angoli */
+    --bg-color: #f1f5f9;
+    --card-bg: #ffffff;
+    --text-main: #0f172a;
+    --text-muted: #64748b;
+    --accent: #6366f1;
+    --youtube-red: #ef4444;
+    --radius: 16px;
 }
 
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
-    font-family: 'Inter', system-ui, -apple-system, sans-serif; /* Font moderno */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     background-color: var(--bg-color);
     color: var(--text-main);
-    line-height: 1.7;
-    padding: 40px 20px;
-    display: flex;
-    justify-content: center;
+    line-height: 1.6;
+    /* Padding ridotto per mobile, centrato */
+    padding: 20px 16px; 
+    min-height: 100vh;
 }
 
-/* --- Contenitore Principale --- */
-/* Avvolge tutto il contenuto per tenerlo centrato e largo al punto giusto */
+/* Contenitore fluido che non supera mai una certa larghezza */
 body > * {
-    max-width: 800px;
-    width: 100%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-/* --- Titoli --- */
+/* --- TIPOGRAFIA MOBILE --- */
 h1 {
-    font-size: 2.5rem;
+    font-size: 1.75rem; /* Dimensione leggibile da telefono */
     font-weight: 800;
-    letter-spacing: -0.02em;
     margin-bottom: 1.5rem;
-    color: #0f172a;
-    border-bottom: 4px solid var(--accent);
+    letter-spacing: -0.02em;
+    position: relative;
     display: inline-block;
-    padding-bottom: 5px;
+}
+
+/* Sottolineatura decorativa compatta */
+h1::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 40px;
+    height: 4px;
+    background: var(--accent);
+    border-radius: 2px;
 }
 
 h2 {
-    margin-top: 3rem;
+    font-size: 1.4rem;
+    margin-top: 2.5rem;
     margin-bottom: 1rem;
-    font-size: 1.8rem;
 }
 
-/* --- Lista Istruzioni (OL) --- */
+p {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text-muted);
+    font-weight: 700;
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+}
+
+/* --- LISTA ISTRUZIONI (CARD) --- */
 ol {
     background: var(--card-bg);
-    padding: 2rem 2rem 2rem 3.5rem; /* Padding sinistro maggiore per i numeri */
     border-radius: var(--radius);
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-    border: 1px solid var(--border);
-    margin-bottom: 2rem;
-    counter-reset: item;
+    padding: 1.5rem;
+    /* Ombra morbida tipica delle UI mobile moderne */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0,0,0,0.03);
+    list-style-position: inside; /* Mantiene i numeri dentro il padding */
 }
 
 ol li {
     margin-bottom: 1rem;
-    position: relative;
-    font-size: 1.1rem;
+    font-size: 1rem;
+    padding-left: 0.5rem;
 }
 
 ol li:last-child {
     margin-bottom: 0;
 }
 
-/* Stile personalizzato per i numeri della lista */
-ol li::marker {
+/* Link nel testo normale */
+a:not(.btn-youtube) {
     color: var(--accent);
-    font-weight: bold;
-    font-size: 1.2rem;
-}
-
-/* --- Link --- */
-a {
-    color: var(--accent);
+    font-weight: 600;
     text-decoration: none;
-    font-weight: 600;
-    transition: all 0.2s ease;
-    border-bottom: 2px solid transparent;
+    word-break: break-word; /* Evita che i link lunghi rompano il layout mobile */
 }
 
-a:hover {
-    color: var(--accent-hover);
-    border-bottom-color: var(--accent-hover);
-}
-
-/* Il link grande per YouTube */
-h2 a {
-    display: block; /* Rende tutta l'area cliccabile */
-    background: linear-gradient(135deg, #ff0000 0%, #cc0000 100%); /* Rosso YouTube */
-    color: white !important;
-    padding: 1.5rem;
-    border-radius: var(--radius);
-    text-align: center;
-    font-size: 1.5rem;
-    border: none;
-    box-shadow: 0 10px 15px -3px rgba(220, 38, 38, 0.3);
-}
-
-h2 a:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 20px 25px -5px rgba(220, 38, 38, 0.4);
-    border-bottom: none;
-}
-
-/* --- Sezione Immagini --- */
-p {
-    font-weight: 600;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    color: #64748b;
-    text-transform: uppercase;
-    font-size: 0.9rem;
-    letter-spacing: 0.05em;
-}
-
-/* Contenitore flex per le immagini */
-/* Ho aggiunto una classe wrapper nell'HTML mentale, ma qui uso il selettore diretto */
+/* --- IMMAGINI STACKATE VERTICALMENTE --- */
+/* Su mobile devono essere grandi e una sotto l'altra */
 img {
-    display: inline-block;
-    width: 30%; /* Le mette in fila da 3 */
-    min-width: 200px;
+    display: block; /* Forza il blocco per andare a capo */
+    width: 100%;    /* Occupa tutta la larghezza disponibile */
     height: auto;
-    border-radius: 8px;
-    border: 1px solid var(--border);
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-    margin-right: 2%;
-    margin-bottom: 1rem;
-    transition: transform 0.3s ease;
-    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 12px;
+    border: 1px solid rgba(0,0,0,0.05);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
 }
 
-img:hover {
-    transform: scale(1.05);
-    z-index: 10;
+/* --- PULSANTE YOUTUBE FULL WIDTH --- */
+.btn-youtube {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: var(--youtube-red);
+    color: white !important;
+    text-decoration: none !important;
+    padding: 18px 20px;
+    border-radius: var(--radius);
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(239, 68, 68, 0.25);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    /* Previene lo zoom su doppio tap su iOS */
+    touch-action: manipulation; 
 }
 
-/* Responsive: su mobile le immagini vanno una sotto l'altra */
-@media (max-width: 600px) {
+.btn-youtube:active {
+    transform: scale(0.98);
+    box-shadow: 0 4px 10px rgba(239, 68, 68, 0.2);
+}
+
+/* --- OTTIMIZZAZIONI DESKTOP (solo se lo schermo è grande) --- */
+@media (min-width: 768px) {
+    body {
+        padding: 60px 20px;
+    }
+    
+    h1 { font-size: 2.5rem; }
+    
+    /* Su desktop le immagini tornano in riga */
     img {
-        width: 100%;
+        display: inline-block;
+        width: 31%;
+        margin-right: 3.5%;
+        margin-bottom: 0;
+    }
+    
+    img:nth-child(3n) {
         margin-right: 0;
     }
     
-    h1 { font-size: 2rem; }
-    ol { padding-left: 1.5rem; }
+    .btn-youtube {
+        width: auto;
+        display: inline-block !important;
+        padding: 16px 40px;
+    }
 }
